@@ -2,13 +2,12 @@
   max-width: 1320px;
   width: 95%;
   margin: 0 auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .head {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid red;
 }
 header {
   background-color: black;
@@ -27,14 +26,14 @@ header {
   height: 74px;
   padding: 0;
   margin: 0;
+  position: sticky;
 }
 
 .tbc-logo {
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 50px;
-  height: 50px;
 }
+
 ul {
   display: flex;
   column-gap: 40px;
@@ -54,5 +53,32 @@ nav {
 
 a:hover {
   color: #e5e5e5;
-  border-bottom: 3px solid #d4a373;
+  border-bottom: 3px solid #116fc1;
+}
+.s1 {
+  height: 606px;
+  background-image: url(https://kids.ge/image?src=/images/image_src/16-1682187556-56638.jpg&w=1200&h=600);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pictext h3 {
+  color: white;
+  font-family: "BPG Arial Caps", sans-serif;
+  font-size: 40px;
+  background-color: #116fc1;
+}
+.pictext h4 {
+  color: black;
+  font-family: "BPG Arial Caps", sans-serif;
+  font-size: 20px;
+  background-color: #e5e5e5;
+}
+
+.fa-bars {
+  display: none;
 }

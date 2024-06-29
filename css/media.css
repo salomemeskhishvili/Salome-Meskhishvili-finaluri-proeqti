@@ -1,0 +1,8 @@
+@media (max-width: 500px) {
+  .fa-bars {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+}
