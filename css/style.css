@@ -4,6 +4,7 @@
   margin: 0 auto;
   /* border: 2px solid red; */
 }
+
 .head {
   display: flex;
   justify-content: space-between;
@@ -81,4 +82,78 @@ a:hover {
 
 .burgerbar {
   display: none;
+}
+
+.txtcontainer {
+  max-width: 860px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.text1 {
+  margin-top: 100px;
+  margin-bottom: 55px;
+  font-family: "BPG Ingiri", sans-serif;
+  color: #495057;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.text2 {
+  margin-bottom: 55px;
+  font-family: "BPG Ingiri", sans-serif;
+  color: #495057;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.txt-h {
+  font-size: 36px;
+  font-family: "BPG Ingiri", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #116fc1;
+  margin-bottom: 55px;
+}
+
+.text3 {
+  font-family: "BPG Ingiri", sans-serif;
+  color: #495057;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 130px;
+}
+
+.boxx {
+  height: 500px;
+  width: 1200px;
+  background-color: #e5e5e5;
+  margin-bottom: 130px;
+  border: 2px solid red;
+}
+
+.cardpic {
+  height: 500px;
+  width: 620px;
+}
+
+/* .carddiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.card-p {
+  font-family: "BPG Ingiri", sans-serif;
+  color: #495057;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
 }
