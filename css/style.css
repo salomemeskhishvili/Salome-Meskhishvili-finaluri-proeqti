@@ -150,8 +150,8 @@ a:hover {
   width: 350px;
   height: 350px;
   /* border: 2px solid red; */
-  margin-left: 50px;
-  margin-top: 50px;
+  margin-left: 100px;
+  margin-top: 100px;
 }
 
 .card-p {
@@ -175,7 +175,7 @@ a:hover {
 
 .div-h2 {
   font-family: "BPG Ingiri", sans-serif;
-  color: #195c97;
+  color: #000000;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -213,6 +213,8 @@ a:hover {
   font-weight: 400;
   line-height: 25px;
   margin-left: 330px;
+  /* border: 2px solid red;
+  display: flex; */
 }
 
 .card2 {
