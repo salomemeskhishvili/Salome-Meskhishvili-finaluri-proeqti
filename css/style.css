@@ -224,7 +224,46 @@ ul li a:hover {
   opacity: 0;
 }
 
-div a :hover {
-  color: #000000;
-  font-style: italic;
+.footer {
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #313539;
+  color: white;
+  text-align: center;
+  height: 200px;
+}
+
+.footer-h {
+  font-family: "BPG Ingiri", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  color: #e6e6e6;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 80px;
+}
+
+.imgg {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+}
+
+.fa-lg {
+  margin-right: 7px;
+  margin-left: 20px;
+}
+
+.fttr {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 30px;
+}
+
+.fa-search {
+  color: #116fc1;
 }
