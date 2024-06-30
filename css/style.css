@@ -52,7 +52,7 @@ nav {
   justify-content: end;
 }
 
-a:hover {
+li a:hover {
   color: #e5e5e5;
   border-bottom: 3px solid #116fc1;
 }
@@ -215,9 +215,6 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-left: 330px; */
-  /* border: 2px solid red;
-  display: flex; */
 }
 
 .card2 {
@@ -227,4 +224,9 @@ a:hover {
 .secc {
   margin-bottom: 130px;
   opacity: 0;
+}
+
+div a:hover {
+  color: #000000;
+  font-style: italic;
 }
