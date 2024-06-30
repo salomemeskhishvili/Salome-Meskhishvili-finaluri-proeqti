@@ -48,14 +48,12 @@ li a {
   font-weight: 700;
   line-height: normal;
 }
-nav {
-  justify-content: end;
-}
 
-li a:hover {
-  color: #e5e5e5;
+ul li a:hover {
+  color: #e6e6e6;
   border-bottom: 3px solid #116fc1;
 }
+
 .s1 {
   height: 606px;
   background-image: url(https://kids.ge/image?src=/images/image_src/16-1682187556-56638.jpg&w=1200&h=600);
@@ -226,7 +224,7 @@ li a:hover {
   opacity: 0;
 }
 
-div a:hover {
+div a :hover {
   color: #000000;
   font-style: italic;
 }
